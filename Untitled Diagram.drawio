@@ -1,34 +1,104 @@
-<mxfile host="app.diagrams.net" modified="2022-07-08T01:15:30.416Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="nEXdDDe7826tq_kRURaK" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-08T01:45:45.749Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="tegL3zA-Th5v61YAFggk" version="20.0.4" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1185" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="MmefKUszekg9bb_KWzK5-41" value="业务系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="120" y="160" width="100" height="780" as="geometry" />
+          <mxGeometry x="180" y="160" width="100" height="780" as="geometry" />
         </mxCell>
-        <mxCell id="Va0D_66MXmp9TNTNk8OC-5" value="事件触发：入科，入院，出院等" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="MmefKUszekg9bb_KWzK5-41" target="Va0D_66MXmp9TNTNk8OC-2">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="50" y="70" as="sourcePoint" />
-            <mxPoint x="130" y="70" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="Va0D_66MXmp9TNTNk8OC-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="MmefKUszekg9bb_KWzK5-41">
+          <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Va0D_66MXmp9TNTNk8OC-1" value="质控之时限性" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;spacing=4;" vertex="1" parent="1">
-          <mxGeometry x="80" y="60" width="160" height="40" as="geometry" />
+          <mxGeometry x="80" y="40" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Va0D_66MXmp9TNTNk8OC-2" value="质控系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="480" y="160" width="100" height="780" as="geometry" />
         </mxCell>
         <mxCell id="Va0D_66MXmp9TNTNk8OC-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Va0D_66MXmp9TNTNk8OC-2">
-          <mxGeometry x="40" y="90" width="10" height="150" as="geometry" />
+          <mxGeometry x="45" y="80" width="10" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="Va0D_66MXmp9TNTNk8OC-7" value="生成代办事件" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="Va0D_66MXmp9TNTNk8OC-6" parent="Va0D_66MXmp9TNTNk8OC-2">
+        <mxCell id="Va0D_66MXmp9TNTNk8OC-7" value="生成代办事件" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" target="Va0D_66MXmp9TNTNk8OC-6" parent="Va0D_66MXmp9TNTNk8OC-2" source="Va0D_66MXmp9TNTNk8OC-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="45" y="70" as="sourcePoint" />
             <Array as="points">
+              <mxPoint x="50" y="70" />
               <mxPoint x="75" y="70" />
+              <mxPoint x="75" y="155" />
+            </Array>
+            <mxPoint x="60" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va0D_66MXmp9TNTNk8OC-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Va0D_66MXmp9TNTNk8OC-2">
+          <mxGeometry x="45" y="290" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Va0D_66MXmp9TNTNk8OC-8" value="消息中心" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="160" width="100" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="Va0D_66MXmp9TNTNk8OC-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;direction=west;" vertex="1" parent="Va0D_66MXmp9TNTNk8OC-8">
+          <mxGeometry x="45" y="150" width="15" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Va0D_66MXmp9TNTNk8OC-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Va0D_66MXmp9TNTNk8OC-8">
+          <mxGeometry x="55" y="170" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Va0D_66MXmp9TNTNk8OC-31" value="推送消息：发送站内信/短信/微信" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="Va0D_66MXmp9TNTNk8OC-30" parent="Va0D_66MXmp9TNTNk8OC-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="150" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="150" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Va0D_66MXmp9TNTNk8OC-12" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0.917;exitY=0.702;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="539.6700000000001" y="345.29999999999984" as="sourcePoint" />
+            <mxPoint x="815.0000000000002" y="345.29999999999984" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va0D_66MXmp9TNTNk8OC-23" value="定时/实时扫描代办，触发消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Va0D_66MXmp9TNTNk8OC-12">
+          <mxGeometry x="-0.086" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va0D_66MXmp9TNTNk8OC-5" value="事件触发：入科，入院，出院等" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="Va0D_66MXmp9TNTNk8OC-13" target="Va0D_66MXmp9TNTNk8OC-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="210" y="230" as="sourcePoint" />
+            <mxPoint x="290" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va0D_66MXmp9TNTNk8OC-16" value="病历系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="160" width="100" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="Va0D_66MXmp9TNTNk8OC-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Va0D_66MXmp9TNTNk8OC-16">
+          <mxGeometry x="42.5" y="170" width="15" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Va0D_66MXmp9TNTNk8OC-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Va0D_66MXmp9TNTNk8OC-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1120" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va0D_66MXmp9TNTNk8OC-29" value="点击处理：打开病历，书写" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Va0D_66MXmp9TNTNk8OC-20">
+          <mxGeometry x="0.5396" y="1" relative="1" as="geometry">
+            <mxPoint x="-100" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va0D_66MXmp9TNTNk8OC-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.083;entryY=0.285;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.947;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Va0D_66MXmp9TNTNk8OC-21" target="Va0D_66MXmp9TNTNk8OC-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Va0D_66MXmp9TNTNk8OC-28" value="保存/完成/打印/归档 时触发，关闭代办事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Va0D_66MXmp9TNTNk8OC-27">
+          <mxGeometry x="0.1687" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va0D_66MXmp9TNTNk8OC-32" value="问题：&lt;br&gt;1.代办事件如何精准与病历关联？&lt;br&gt;2.代办事件需要存储哪些业务的内容？&lt;br&gt;3.代办事件状态：新建，处理中（发送了消息），关闭&lt;br&gt;4.代办事件升级如何处理？ 是否可以考虑从事件触发一个事件" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="35" width="400" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
